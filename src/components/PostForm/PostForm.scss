@@ -1,0 +1,27 @@
+.post {
+
+    
+    &__centered {
+        
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 1rem;
+    }
+    
+    &__title {
+        background-color: red;
+
+    }
+
+    &__form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
