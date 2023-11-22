@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import './App.css';
+import { useState } from 'react';
 import PostForm from './components/PostForm/PostForm';
 
 
@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+
       <PostForm addPost={addPost} />
 
       <section>
